@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Swashbuckle.FluentValidation.NetCore21WebApi", "src\Swashbuckle.FluentValidation.NetCore21WebApi\Swashbuckle.FluentValidation.NetCore21WebApi.csproj", "{6F944BEB-4EC4-4036-AB2E-3EC50A520422}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApiSecured", "src\WebApiSecured\WebApiSecured.csproj", "{35FEEADB-35A8-4625-9E54-37A55324E051}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Swashbuckle.AuthWebApi", "src\Swashbuckle.AuthWebApi\Swashbuckle.AuthWebApi.csproj", "{18887966-F1C6-4DA4-8859-3F147FD15E57}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{6F944BEB-4EC4-4036-AB2E-3EC50A520422}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F944BEB-4EC4-4036-AB2E-3EC50A520422}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F944BEB-4EC4-4036-AB2E-3EC50A520422}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35FEEADB-35A8-4625-9E54-37A55324E051}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35FEEADB-35A8-4625-9E54-37A55324E051}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35FEEADB-35A8-4625-9E54-37A55324E051}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35FEEADB-35A8-4625-9E54-37A55324E051}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18887966-F1C6-4DA4-8859-3F147FD15E57}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18887966-F1C6-4DA4-8859-3F147FD15E57}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18887966-F1C6-4DA4-8859-3F147FD15E57}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18887966-F1C6-4DA4-8859-3F147FD15E57}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
